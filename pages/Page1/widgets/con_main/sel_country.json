@@ -1,58 +1,72 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-    "labelText": "Country",
-    "topRow": 8,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "placeholderText": "Any",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 17,
-    "widgetName": "sel_country",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 15,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "parentColumnSpace": 23.578125,
-    "dynamicTriggerPathList": [
-        {"key": "onOptionChange"},
-        {"key": "onDropdownClose"}
-    ],
-    "labelPosition": "Top",
-    "onDropdownClose": "",
-    "sourceData": "[\n  {\n    \"label\": \"United States\",\n    \"value\": \"United States\"\n  },\n  {\n    \"label\": \"Australia\",\n    \"value\": \"Australia\"\n  },\n  {\n    \"label\": \"United Kingdom\",\n    \"value\": \"United Kingdom\"\n  },\n\t{\n    \"label\": \"France\",\n    \"value\": \"France\"\n  },\n  {\n    \"label\": \"Spain\",\n    \"value\": \"Spain\"\n  },\n\t{\n    \"label\": \"China\",\n    \"value\": \"China\"\n  },\n\t{\n    \"label\": \"Germany\",\n    \"value\": \"Germany\"\n  },\n\t{\n    \"label\": \"Chile\",\n    \"value\": \"Chile\"\n  }\n]",
-    "key": "uuhcahpt5v",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 16,
-    "widgetId": "1fssbsw078",
-    "optionValue": "value",
-    "minWidth": 450,
-    "parentId": "6r7et6e9fq",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "optionLabel": "label",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 10,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{fetch_users.run();\nresetWidget(\"tbl_users\", true);}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uuhcahpt5v",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Country",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onDropdownClose": "",
+  "onOptionChange": "{{fetch_users.run();\nresetWidget(\"tbl_users\", true);}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
+  "parentColumnSpace": 23.578125,
+  "parentId": "6r7et6e9fq",
+  "parentRowSpace": 10,
+  "placeholderText": "Any",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 16,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"United States\",\n    \"value\": \"United States\"\n  },\n  {\n    \"label\": \"Australia\",\n    \"value\": \"Australia\"\n  },\n  {\n    \"label\": \"United Kingdom\",\n    \"value\": \"United Kingdom\"\n  },\n\t{\n    \"label\": \"France\",\n    \"value\": \"France\"\n  },\n  {\n    \"label\": \"Spain\",\n    \"value\": \"Spain\"\n  },\n\t{\n    \"label\": \"China\",\n    \"value\": \"China\"\n  },\n\t{\n    \"label\": \"Germany\",\n    \"value\": \"Germany\"\n  },\n\t{\n    \"label\": \"Chile\",\n    \"value\": \"Chile\"\n  }\n]",
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "1fssbsw078",
+  "widgetName": "sel_country"
 }
